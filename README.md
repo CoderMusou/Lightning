@@ -48,3 +48,9 @@ php artisan storage:link
 yarn
 yarn dev
 ```
+
+
+## 参考
+
+原始版本（laravel 7 + laravel/ui）: [ycs77 / lightning](https://github.com/ycs77/lightning/)
+系列教程[關於我用 Laravel 寫 SPA 卻不寫 API 的那檔事](https://ithelp.ithome.com.tw/users/20113602/ironman/3322) 
