@@ -1,0 +1,53 @@
+.btn {
+    @apply inline-flex items-center px-5 py-2 rounded-md transition-colors duration-150;
+}
+
+.btn-purple {
+    @apply bg-purple-500 text-white;
+    &:hover {
+         @apply bg-purple-700;
+     }
+    &:disabled {
+         @apply bg-purple-300 !important;
+     }
+}
+
+.btn-purple-light {
+    @apply bg-purple-100 text-purple-700;
+    &:hover {
+         @apply bg-purple-200;
+     }
+}
+
+.btn-red {
+    @apply bg-red-500 text-white;
+    &:hover {
+         @apply bg-red-700;
+     }
+    &:disabled {
+         @apply bg-red-300 !important;
+     }
+}
+
+.btn-red-light {
+    @apply bg-red-100 text-red-700;
+    &:hover {
+         @apply bg-red-200;
+     }
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white;
+    &:hover {
+        @apply bg-blue-700;
+    }
+    &:disabled {
+        @apply bg-blue-300 !important;
+    }
+}
+.btn-blue-light {
+    @apply bg-blue-100 text-blue-700;
+    &:hover {
+        @apply bg-blue-200;
+    }
+}

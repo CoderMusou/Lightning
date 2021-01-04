@@ -1,0 +1,43 @@
+/* Link */
+.link {
+    @apply text-purple-500 transition-colors duration-100;
+    &:hover {
+        @apply text-purple-700;
+    }
+}
+
+/* Card */
+.card {
+    @apply bg-white rounded-lg shadow;
+}
+.card-main {
+    @apply max-w-screen-md p-6 mx-auto;
+    @screen md {
+        @apply p-8;
+    }
+}
+
+/* Alert */
+.alert {
+    @apply flex items-center px-5 py-3 text-lg rounded-md;
+}
+.alert-success {
+    @apply bg-green-100 text-green-700;
+}
+.alert-error {
+    @apply bg-red-100 text-red-700;
+}
+
+/* Tab */
+.tab {
+    @apply px-2 py-1 text-sm font-light rounded select-none;
+}
+.tab-link {
+    @apply text-purple-500 transition-colors duration-100;
+&:hover {
+     @apply text-purple-700;
+ }
+}
+.tab-active {
+    @apply bg-purple-100 text-purple-700;
+}
