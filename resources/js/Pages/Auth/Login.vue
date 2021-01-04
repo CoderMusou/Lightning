@@ -46,6 +46,7 @@
         },
         methods: {
             submit() {
+                if(this.form['remember'] === false) delete this.form['remember']
                 this.$inertia.post('/login', this.form, {
                     onStart: () => this.loading = true,
                     onFinish: () => this.loading = false
